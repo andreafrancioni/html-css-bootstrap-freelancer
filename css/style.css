@@ -8,6 +8,19 @@ header, footer{
     color: white;
 }
 
+#jumbo img{
+    width: 15rem;
+}
+
+.div-line{
+    background-color: white;
+    width: 10rem;
+    height: 0.3rem;
+    border-radius: 10px;
+
+}
+
 /* COLOR */
 .bg-acqua {background-color: #1ABC9C;}
 .bg-white {background-color: white;}
+.bg-black {background-color: black;}
