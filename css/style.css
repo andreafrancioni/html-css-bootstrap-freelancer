@@ -3,7 +3,7 @@ a{
     color: white;
 }
 
-header{
+header, footer{
     background-color: #2C3E50;
     color: white;
 }
