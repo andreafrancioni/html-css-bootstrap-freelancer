@@ -14,6 +14,33 @@
     <header>
         <nav>
             <div class="container">
+                <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary">
+                    <div class="container">
+                    <a class="navbar-brand text-white fs-1" href="#">
+                        START BOOTSTRAP
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse  justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white fs-4" aria-current="page" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-4" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-4" href="#">CONTACT</a>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- OLD HEADER -->
+            <!-- <div class="container">
                 <div class="row">
                     <div class="col-6 align-self-center text-center">
                         <h3>START BOOTSTRAP</h3>
@@ -24,7 +51,7 @@
                         <a href="#">CONTACT</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </nav>
     </header>
 
@@ -36,29 +63,30 @@
                     <div class="col-12 text-center">
                         <img class="img-fluid" src="./img/avatar.svg" alt="avatar">
                     </div>
-                    <div class="col-12 text-center">
-                        START BOOTSTRAP
+                    <div class="col-12 d-flex justify-content-center pt-2">
+                        <h1 class="text-white fs-1">START BOOTSTRAP</h1>
                     </div>
                     <div class="col-12 d-flex justify-content-center align-items-center">
                         <div class="div-line"></div>
                         <span><i class="fas fa-star fs-3 px-3 text-white"></i></span>
                         <div class="div-line"></div>
                     </div>
-                    <div class="col-12 text-center">
-                        GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
-                    </div>
+                    <div class="col-12 d-flex justify-content-center align-items-center pb-4 pt-2">
+                        <p class="text-white fs-4">GRAPHIC ARTIST - WEB DESINGER - ILLUSTRATOR</p>
+                     </div>
                 </div>
             </div>
         </section>
 
         <!-- PORTFOLIO -->
-        <section id="portfolio" class="bg-white">
+        <section id="portfolio" class="bg-white py-4">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
                         <h1>PORTFOLIO</h1>
                     </div>
-                    <div class="col-12 d-flex justify-content-center align-items-center">
+                    <!-- DIVISORE -->
+                    <div class="col-12 d-flex justify-content-center align-items-center py-4">
                         <div class="div-line bg-black"></div>
                         <span><i class="fas fa-star fs-3 px-3 text-black"></i></span>
                         <div class="div-line bg-black"></div>
@@ -93,61 +121,79 @@
         </section>
 
         <!-- ABOUT SECTION -->
-        <section id="about" class="bg-acqua">
+        <section id="about" class="bg-acqua py-4">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 text-center">
+                    <div class="col-12 text-center text-white">
                         <h1>ABOUT</h1>
                     </div>
-                    <div class="col-12 d-flex justify-content-center align-items-center">
+                    <!-- DIVISORE -->
+                    <div class="col-12 d-flex justify-content-center align-items-center py-4">
                         <div class="div-line"></div>
                         <span><i class="fas fa-star fs-3 px-3 text-white"></i></span>
                         <div class="div-line"></div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-sm-6">
+                    <div class="col-12 col-sm-6 text-white">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores optio amet, cumque earum, explicabo in est dolores, cum temporibus magni natus totam. Laudantium quas, qui reprehenderit sunt soluta a hic?</p>
                     </div>
-                    <div class="col-12 col-sm-6">
+                    <div class="col-12 col-sm-6 text-white">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores optio amet, cumque earum, explicabo in est dolores, cum temporibus magni natus totam. Laudantium quas, qui reprehenderit sunt soluta a hic?</p>
                     </div>
                     <div class="col-12 text-center">
-                        <button>Download</button>
+                        <button class="btn btn-outline-light">Download</button>
                     </div>
                 </div>
         </section>
 
         <!-- CONTACT SECTION -->
-        <section id="contact" class="bg-white">
+        <section id="contact" class="bg-white py-4">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
                         <h1>CONTACT ME</h1>
                     </div>
-                    <div class="col-12 d-flex justify-content-center align-items-center">
+                    <div class="col-12 d-flex justify-content-center align-items-center py-4">
                         <div class="div-line bg-black"></div>
                         <span><i class="fas fa-star fs-3 px-3 text-black"></i></span>
                         <div class="div-line bg-black"></div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12">
-                        Name
-                    </div>
-                    <div class="col-12">
-                        Email
-                    </div>
-                    <div class="col-12">
-                        Phone Number
-                    </div>
-                    <div class="col-12">
-                        Message
-                    </div>
-                    <div class="col-12">
-                        <button>Send</button>
-                    </div>
+                <div class="col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
+                    <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                        <!-- Name -->
+                        <div class="form-group label-floating">
+                        <label class="control-label" for="name">Name</label>
+                        <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
+                        <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- email -->
+                        <div class="form-group label-floating">
+                        <label class="control-label" for="email">Email</label>
+                        <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
+                        <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- Subject -->
+                        <div class="form-group label-floating">
+                        <label class="control-label">Subject</label>
+                        <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Please enter your message subject">
+                        <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- Message -->
+                        <div class="form-group label-floating">
+                            <label for="message" class="control-label">Message</label>
+                            <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- Form Submit -->
+                        <div class="form-submit mt-5">
+                            <button class="btn btn-common" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Send Message</button>
+                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                            <div class="clearfix"></div>
+                        </div>
                 </div>
+                </form>
         </section>
     </main>
 
@@ -171,16 +217,16 @@
                             AROUND THE WEB
                         </div>
                         <div class="col-3">
-                            FACEBOOK
+                            <i class="fab fa-facebook-f"></i>
                         </div>
                         <div class="col-3">
-                            GOOGLE
+                            <i class="fab fa-google-plus-g"></i>
                         </div>
                         <div class="col-3">
-                            TWITTER
+                            <i class="fab fa-twitter"></i>
                         </div>
                         <div class="col-3">
-                            LINKEDIN
+                            <i class="fab fa-linkedin-in"></i>
                         </div>
                     </div>
                 </div>
