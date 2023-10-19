@@ -4,12 +4,15 @@ a{
 }
 
 header, footer{
-    background-color: #2C3E50;
     color: white;
 }
 
 #jumbo img{
     width: 15rem;
+}
+
+#jumbo{
+    margin-top: 80px;
 }
 
 .div-line{
@@ -21,6 +24,7 @@ header, footer{
 }
 
 /* COLOR */
+.bg-header{background-color: #2C3E50;}
 .bg-acqua {background-color: #1ABC9C;}
 .bg-white {background-color: white;}
 .bg-black {background-color: black;}
